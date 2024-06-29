@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'BehanceFont1';
+    src: url('fonts/behance-6660441177de4.otf') format('opentype');
+    font-weight: 1000;
+}
+
+@font-face {
+    font-family: 'BehanceFont2';
+    src: url('fonts/behance-6660441182b98.otf') format('opentype');
+    font-weight: 1000;
+}
+
+@font-face {
+    font-family: 'SVGFont';
+    src: url('fonts/-SVG.otf') format('opentype');
+    font-weight: 1000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     position: absolute;
@@ -56,7 +78,7 @@ header {
     left: 0px;
     top: 0px;
 
-    font-family: 'Arial, sans-serif';
+    font-family: 'BehanceFont1';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -70,9 +92,8 @@ header {
 }
 
 main {
-    font-family: Arial, sans-serif;
     position: absolute;
-    width: 1920px;
+    width: 1900px;
     height: 6299px;
     top: 213px;
 }
@@ -100,6 +121,7 @@ main {
     left: 1015px;
     top: 317px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -134,6 +156,7 @@ main {
     left: 642px;
     top: 987px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -160,6 +183,7 @@ main {
     left: 275px;
     top: 1342px;
 
+    font-family: 'SVGFont';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -187,6 +211,7 @@ main {
     left: 0px;
     top: 0px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
@@ -217,6 +242,7 @@ main {
     left: 0px;
     top: 0px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
@@ -247,6 +273,7 @@ main {
     left: 0px;
     top: 0px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
@@ -261,7 +288,7 @@ main {
 
 .background1 {
     position: absolute;
-    width: 1920px;
+    width: 1900px;
     height: 1080px;
     left: 0px;
     top: 3084px;
@@ -274,6 +301,7 @@ main {
     left: 412px;
     top: 3143px;
 
+    font-family: 'SVGFont';
     font-style: normal;
     font-weight: 400;
     font-size: 70px;
@@ -293,6 +321,7 @@ main {
     left: 387px;
     top: 3328px;
     
+    font-family: 'BehanceFont1';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -308,6 +337,7 @@ main {
 }
 
 .manga-read {
+    font-family: 'BehanceFont1';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -323,10 +353,12 @@ main {
     left: 387px;
     top: 3920px;
 
+    color: #000000;
     background: rgba(236, 236, 236, 0.56);
 }
 
 .manga-name {
+    font-family: 'BehanceFont1';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -364,6 +396,7 @@ main {
     left: 941px;
     top: 3565px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -376,7 +409,7 @@ main {
 
 .background2 {
     position: absolute;
-    width: 1920px;
+    width: 1900px;
     height: 1080px;
     left: 0px;
     top: 4164px;
@@ -385,15 +418,6 @@ main {
 }
 
 .game {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
     position: absolute;
     width: 520px;
     height: 748px;
@@ -405,6 +429,7 @@ main {
 }
 
 .game-image {
+    font-family: 'SVGFont';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -425,6 +450,7 @@ main {
 }
 
 .game-discription {
+    font-family: 'BehanceFont1';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -456,6 +482,7 @@ main {
 }
 
 .merch-image {
+    font-family: 'SVGFont';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -482,6 +509,7 @@ main {
     left: 1056px;
     top: 4554px;
 
+    font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -494,7 +522,7 @@ main {
 
 .background3 {
     position: absolute;
-    width: 1920px;
+    width: 1900px;
     height: 1055px;
     left: 0px;
     top: 5244px;
@@ -503,6 +531,7 @@ main {
 }
 
 .about-us {
+    font-family: 'BehanceFont1';
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
@@ -571,7 +600,7 @@ footer {
     left: 348px;
     top: 102px;
 
-    font-family: '- ';
+    font-family: 'SVGFont';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
