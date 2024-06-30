@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Website</title>
+    <title>KNUTD SITE</title>
+    <script src="player/playerjs.js" type="text/javascript" ></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -43,11 +44,7 @@
             </div>
         </section>
 
-        <section class="tyzer">
-            <div class="tyzer-text">
-                <p>Тизер</p>
-            </div>
-        </section>
+        <div id="player" class="tyzer"> </div> 
 
         <img class="background1" src="image/background 1.png" alt="background1">
 
@@ -70,27 +67,124 @@
 
         <div class="game"></div>
 
-        <div class="game-image">
-            <p>гра</p>
+    <button id="gameBtn" class="game-image">гра</button>
+
+    <div id="gameModal" class="game-modal">
+        <div class="game-modal-content">
+            <span class="close">&times;</span>
+            <p>Гра</p>
         </div>
+    </div>
 
-        <div class="game-discription">
-            <p>Опис гри</p>
+    <div class="game-description">
+        <p>Опис гри</p>
+    </div>
+
+    <div class="merch"></div>
+
+    <button id="merchBtn" class="merch-image">мерч</button>
+
+    <div id="merchModal" class="merch-modal">
+        <div class="merch-modal-content">
+            <span class="close">&times;</span>
+            <div class="merch-modal-inner">
+                <div class="merch-modal-left">
+                    <span class="arrow prev">&#8592;</span>
+                </div>
+                <div class="merch-modal-center">
+                    <div id="merchModalText1" class="merch-modal-text1">Мерч 1</div>
+                    <div id="merchModalText2" class="merch-modal-text2">Опис</div>
+                </div>
+                <div class="merch-modal-right">
+                    <span class="arrow next">&#8594;</span>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="merch"></div>
+    <p class="merch-description">Мерч, як різноманітний фан продукт, який також було створено з метою налагодження комунікації. Серед запропонованого є футболки, худі, кепки і шопери, все для людей що мають бажання ідентифікувати себе, як адептів цінностей проєкту, а також доповнити свій образ тематичними деталями, наліпками, нашивками, значками, шкарпетками, тощо.</p>
 
-        <div class="merch-image">
-            <p>мерч</p>
-        </div>
+    <img class="background3" src="image/background 3.png" alt="background3">
 
-        <p class="merch-description">Мерч, як різноманітний фан продукт, який також було створено з метою налагодження комунікації. Серед запропонованого є футболки, худі, кепки і шопери, все для людей що мають бажання ідентифікувати себе, як адептів цінностей проєкту, а також доповнити свій образ тематичними деталями, наліпками, нашивками, значками, шкарпетками, тощо.</p>
+    <div class="about-us">
+        <p>Про нас</p>
+    </div>
 
-        <img class="background3" src="image/background 3.png" alt="background3">
+    <script type="text/javascript">
+            
+        var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+            
+        var vs = {id:"player"};
+            
+        for(var i = 0; i<ps.length; i++){
+            var p = ps[i].substr(0,ps[i].indexOf("="));
+            var v = ps[i].substr(ps[i].indexOf("=")+1);
+            if(p!=v){
+                vs[p] = decodeURIComponent(v);
+            }
+        }
+            
+        var playerjs = new Playerjs(vs);
+            
+    </script>
 
-        <div class="about-us">
-            <p>Про нас</p>
-        </div>
+    <script>
+
+        var gameModal = document.getElementById("gameModal");
+        var merchModal = document.getElementById("merchModal");
+
+        var gameBtn = document.getElementById("gameBtn");
+        var merchBtn = document.getElementById("merchBtn");
+
+        var closeButtons = document.getElementsByClassName("close");
+
+        var nextArrow = document.querySelector(".merch-modal .next");
+        var prevArrow = document.querySelector(".merch-modal .prev");
+
+        var slides = ["Мерч 1", "Мерч 2", "Мерч 3", "Мерч 4"];
+        var currentSlide = 0;
+
+        function updateMerchModalContent() {
+            document.getElementById("merchModalText1").innerText = slides[currentSlide];
+            document.getElementById("merchModalText2").innerText = "Опис";
+        }
+
+        gameBtn.onclick = function() {
+            gameModal.style.display = "block";
+        }
+
+        merchBtn.onclick = function() {
+            merchModal.style.display = "block";
+            updateMerchModalContent();
+        }
+
+        Array.from(closeButtons).forEach(function(closeBtn) {
+            closeBtn.onclick = function() {
+                gameModal.style.display = "none";
+                merchModal.style.display = "none";
+            }
+        });
+
+        window.onclick = function(event) {
+            if (event.target == gameModal) {
+                gameModal.style.display = "none";
+            }
+            if (event.target == merchModal) {
+                merchModal.style.display = "none";
+            }
+        }
+
+        nextArrow.onclick = function() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            updateMerchModalContent();
+        }
+
+        prevArrow.onclick = function() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            updateMerchModalContent();
+        }
+    </script>
+
     </main>
 
     <footer>
