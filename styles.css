@@ -98,6 +98,14 @@ main {
     top: 213px;
 }
 
+.background1 {
+    position: absolute;
+    width: 1900px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+
 .character1 {
     position: absolute;
     width: 332px;
@@ -166,6 +174,14 @@ main {
     text-align: center;
 
     color: #000000;
+}
+
+.background2 {
+    position: absolute;
+    width: 1900px;
+    height: 1080px;
+    left: 0px;
+    top: 1080px;
 }
 
 .heroes {
@@ -255,6 +271,14 @@ main {
     color: #000000;
 }
 
+.background3 {
+    position: absolute;
+    width: 1900px;
+    height: 1080px;
+    left: 0px;
+    top: 2160px;
+}
+
 .tyzer {
     position: absolute;
     width: 1158px;
@@ -264,12 +288,12 @@ main {
 }
 
 
-.background1 {
+.background4 {
     position: absolute;
     width: 1900px;
     height: 1080px;
     left: 0px;
-    top: 3084px;
+    top: 3240px;
 }
 
 .manga-title {
@@ -385,12 +409,12 @@ main {
     color: #000000;
 }
 
-.background2 {
+.background5 {
     position: absolute;
     width: 1900px;
     height: 1080px;
     left: 0px;
-    top: 4164px;
+    top: 4320px;
     background: #FFFFFF;
 }
 
@@ -640,12 +664,12 @@ main {
 }
 
 
-.background3 {
+.background6 {
     position: absolute;
     width: 1900px;
     height: 1055px;
     left: 0px;
-    top: 5244px;
+    top: 5400px;
 
     background: #FFFFFF;
 }
