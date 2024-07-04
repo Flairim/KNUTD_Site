@@ -413,8 +413,8 @@ main {
     width: 520px;
     height: 748px;
     left: 373px;
-    top: 4344px;
-    background: rgba(217, 217, 217, 0.5);
+    top: 4327px;
+    background: rgba(179, 133, 255, 0.5);
     border-radius: 25px;
 }
 
@@ -432,9 +432,9 @@ main {
     width: 451px;
     height: 266px;
     left: 402px;
-    top: 4363px;
+    top: 4346px;
     color: #000000;
-    background: rgba(217, 217, 217, 0.54);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
 }
 
@@ -465,7 +465,7 @@ main {
     text-align: center;
     justify-content: center;
     color: #000000;
-    background: #D9D9D9;
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
 }
 
@@ -510,7 +510,7 @@ main {
     height: 372px;
     left: 402px;
     top: 4682px;
-    background: rgba(217, 217, 217, 0.5);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
 }
 
@@ -519,8 +519,8 @@ main {
     width: 520px;
     height: 748px;
     left: 1028px;
-    top: 4344px;
-    background: rgba(217, 217, 217, 0.5);
+    top: 4327px;
+    background: rgba(179, 133, 255, 0.5);
     border-radius: 25px;
 }
 
@@ -538,9 +538,9 @@ main {
     width: 457px;
     height: 266px;
     left: 1059px;
-    top: 4363px;
+    top: 4346px;
     color: #000000;
-    background: rgba(217, 217, 217, 0.43);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
 }
 
@@ -571,7 +571,7 @@ main {
     text-align: center;
     justify-content: center;
     color: #000000;
-    background: #D9D9D9;
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
 }
 
@@ -642,7 +642,7 @@ main {
     width: 480px;
     height: 568px;
     left: 1056px;
-    top: 4554px;
+    top: 4537px;
     font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
@@ -678,16 +678,16 @@ main {
     left: 373px;
     top: 5391px;
 
-    background: rgba(217, 217, 217, 0.63);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
 }
 
 footer {
     position: absolute;
-    width: 1372px;
+    width: 1900px;
     height: 300px;
-    left: 274px;
-    top: 6512px;
+    left: 0px;
+    top: 6497px;
 
     background: #D9D9D9;
 }
@@ -696,7 +696,7 @@ footer {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 70px;
+    left: 344px;
     top: 132px;
 
     mix-blend-mode: color-burn;
@@ -707,7 +707,7 @@ footer {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 136px;
+    left: 410px;
     top: 132px;
 
     mix-blend-mode: color-burn;
@@ -718,7 +718,7 @@ footer {
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 202px;
+    left: 476px;
     top: 132px;
 
     mix-blend-mode: color-burn;
@@ -729,8 +729,8 @@ footer {
     position: absolute;
     width: 676px;
     height: 110px;
-    left: 348px;
-    top: 102px;
+    left: 622px;
+    top: 115px;
 
     font-family: 'SVGFont';
     font-style: normal;
@@ -741,17 +741,17 @@ footer {
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #6305FF;
 }
 
 .Logo2 {
     box-sizing: border-box;
 
     position: absolute;
-    width: 149px;
-    height: 132px;
-    left: 1120px;
-    top: 80px;
+    width: 200px;
+    height: 200px;
+    left: 1394px;
+    top: 50px;
 
     mix-blend-mode: color-burn;
     border-radius: 25px;
