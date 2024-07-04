@@ -23,72 +23,82 @@
 
 header {
     position: absolute;
-    width: 1375px;
+    width: 1370px;
     height: 213px;
-    left: 273px;
+    left: 275px;
     top: 0px;
-
-    background: #E8E8E8;
+    
+    background: rgba(179, 133, 255, 0.37);
     border-radius: 0px 0px 25px 25px;
 }
 
 .Logo1 {
-    box-sizing: border-box;
-
     position: absolute;
-    width: 149px;
-    height: 132px;
-    left: 34px;
-    top: 42px;
-
-    mix-blend-mode: color-burn;
-    border-radius: 25px;
+    width: 193px;
+    height: 182px;
+    left: 9px;
+    top: 15px;
 }
 
 .Banner {
-    box-sizing: border-box;
-
     position: absolute;
-    width: 932.07px;
-    height: 214.61px;
-    left: 223px;
+    width: 553px;
+    height: 223px;
+    left: 398px;
     top: 0px;
+}
 
-    background-blend-mode: exclusion;
-    mix-blend-mode: color-burn;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 0px 0px 25px 25px;
+.Instagram1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1139px;
+    top: 35px;
+    mix-blend-mode: soft-light;
+    border-radius: 25px;
+
+}
+
+.Telegram1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1209px;
+    top: 35px;
+    mix-blend-mode: soft-light;
+    border-radius: 25px;
+}
+
+.Youtube1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1279px;
+    top: 35px;
+    mix-blend-mode: soft-light;
+    border-radius: 25px;
 }
 
 .language-border {
     position: absolute;
-    width: 191px;
+    width: 190px;
     height: 50px;
-    left: 1166.97px;
-    top: 80.1px;
-
-    background: #ECECEC;
-    border-radius: 25px;
-}
-
-.language-switcher {
-    position: absolute;
-    width: 191px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
-
-    font-family: 'BehanceFont1';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 45px;
-    display: flex;
+    left: 1139px;
+    top: 114px;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    color: #040404;
+    font-family: 'BehanceFont2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    
+    color: #050505;
+
+    background: rgba(179, 133, 255, 0.63);
+    border-radius: 25px;
 }
 
 main {
@@ -108,72 +118,78 @@ main {
 
 .character1 {
     position: absolute;
-    width: 332px;
-    height: 370px;
-    left: 275px;
-    top: 170px;
+    width: 326px;
+    height: 326px;
+    left: 317px;
+    top: 95px;
 }
 
 .dialogue1 {
     position: absolute;
-    width: 936px;
-    height: 949px;
-    left: 665px;
-    top: -66px;
+    width: 941px;
+    height: 401px;
+    left: 643px;
+    top: 94px;
 }
 
 .dialogue-text1 {
     position: absolute;
-    width: 254px;
-    height: 77px;
-    left: 1015px;
-    top: 317px;
+    width: 786px;
+    height: 301px;
+    left: 742px;
+    top: 105px;
 
     font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 18px;
+    line-height: 22px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;;
 
-    color: #000000;
+    color: #FFFFFF;
+    background: rgba(179, 133, 255, 0.63);
+    border-radius: 25px;
 }
 
 .character2 {
     position: absolute;
-    width: 331px;
-    height: 370px;
-    left: 1298px;
-    top: 841px;
+    width: 332.22px;
+    height: 332.22px;
+    left: 1252px;
+    top: 652px;
 }
 
 .dialogue2 {
     position: absolute;
-    width: 949px;
-    height: 949px;
-    left: 295px;
-    top: 592px;
+    width: 941px;
+    height: 427.82px;
+    left: 336px;
+    top: 653px;
 }
 
 .dialogue-text2 {
     position: absolute;
-    width: 254px;
-    height: 77px;
-    left: 642px;
-    top: 987px;
+    width: 792px;
+    height: 295px;
+    left: 394px;
+    top: 675px;
 
     font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 18px;
+    line-height: 22px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;;
 
-    color: #000000;
+    color: #FFFFFF;
+    background: rgba(179, 133, 255, 0.63);
+    border-radius: 25px;
 }
 
 .background2 {
@@ -186,18 +202,18 @@ main {
 
 .heroes {
     position: absolute;
-    width: 456px;
-    height: 664px;
-    left: 726px;
-    top: 1476px;
+    width: 492.41px;
+    height: 700px;
+    left: 698px;
+    top: 1148px;
 }
 
 .heroes-text {
     position: absolute;
     width: 1370px;
     height: 55px;
-    left: 275px;
-    top: 1342px;
+    left: 146px;
+    top: 1158px;
 
     font-family: 'SVGFont';
     font-style: normal;
@@ -206,27 +222,18 @@ main {
     line-height: 55px;
     text-align: center;
 
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .heroes-details1 {
     position: absolute;
-    width: 443px;
-    height: 648px;
-    left: 283px;
-    top: 1492px;
+    width: 400px;
+    height: 700px;
+    left: 275px;    
+    top: 1148px;
 
-    background: rgba(217, 217, 217, 0.5);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
-}
-
-.heroes-details-text1 {
-    position: absolute;
-    width: 444px;
-    height: 648px;
-    left: 0px;
-    top: 0px;
-
     font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
@@ -237,27 +244,18 @@ main {
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .heroes-details2 {
     position: absolute;
-    width: 443px;
-    height: 664px;
-    left: 1203px;
-    top: 1476px;
+    width: 400px;
+    height: 700px;
+    left: 1248px;
+    top: 1148px;
 
-    background: rgba(217, 217, 217, 0.5);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px;
-}
-
-.heroes-details-text2 {
-    position: absolute;
-    width: 442px;
-    height: 648px;
-    left: 0px;
-    top: 0px;
-
     font-family: 'BehanceFont2';
     font-style: normal;
     font-weight: 300;
@@ -268,23 +266,15 @@ main {
     align-items: center;
     text-align: center;
 
-    color: #000000;
-}
-
-.background3 {
-    position: absolute;
-    width: 1900px;
-    height: 1080px;
-    left: 0px;
-    top: 2160px;
+    color: #FFFFFF;
 }
 
 .tyzer {
     position: absolute;
-    width: 1158px;
-    height: 736px;
-    left: 383px;
-    top: 2284px;
+    width: 1300px;
+    height: 803px;
+    left: 308px;
+    top: 2094px;
 }
 
 
@@ -293,15 +283,15 @@ main {
     width: 1900px;
     height: 1080px;
     left: 0px;
-    top: 3240px;
+    top: 3258px;
 }
 
 .manga-title {
     position: absolute;
     width: 1077px;
     height: 101px;
-    left: 412px;
-    top: 3143px;
+    left: 722px;
+    top: 3215px;
 
     font-family: 'SVGFont';
     font-style: normal;
@@ -318,10 +308,10 @@ main {
 
 .manga-image {
     position: absolute;
-    width: 440px;
-    height: 565px;
-    left: 387px;
-    top: 3328px;
+    width: 505px;
+    height: 739px;
+    left: 326px;
+    top: 3215px;
     
     font-family: 'BehanceFont1';
     font-style: normal;
@@ -334,7 +324,7 @@ main {
     text-align: center;
 
     color: #000000;
-    background: rgba(217, 217, 217, 0.63);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 65px;
 }
 
@@ -350,13 +340,13 @@ main {
     text-align: center;
 
     position: absolute;
-    width: 440px;
+    width: 505px;
     height: 93px;
-    left: 387px;
-    top: 3920px;
+    left: 326px;
+    top: 3979px;
 
     color: #000000;
-    background: rgba(236, 236, 236, 0.56);
+    background: rgba(179, 133, 255, 0.63);
 }
 
 .manga-name {
@@ -373,10 +363,10 @@ main {
     position: absolute;
     width: 547px;
     height: 94px;
-    left: 917px;
-    top: 3414px;
+    left: 983px;
+    top: 3341px;
 
-    background: rgba(217, 217, 217, 0.5);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -384,19 +374,19 @@ main {
     position: absolute;
     width: 547px;
     height: 386px;
-    left: 917px;
-    top: 3523px;
+    left: 983px;
+    top: 3459px;
 
-    background: rgba(217, 217, 217, 0.5);
+    background: rgba(179, 133, 255, 0.63);
     border-radius: 0px 0px 25px 25px;
 }
 
 .manga-discription-text {
     position: absolute;
-    width: 498px;
-    height: 289px;
-    left: 941px;
-    top: 3565px;
+    width: 504px;
+    height: 386px;
+    left: 1004px;
+    top: 3463px;
 
     font-family: 'BehanceFont2';
     font-style: normal;
@@ -414,7 +404,7 @@ main {
     width: 1900px;
     height: 1080px;
     left: 0px;
-    top: 4320px;
+    top: 4338px;
     background: #FFFFFF;
 }
 
@@ -667,11 +657,9 @@ main {
 .background6 {
     position: absolute;
     width: 1900px;
-    height: 1055px;
+    height: 1080px;
     left: 0px;
-    top: 5400px;
-
-    background: #FFFFFF;
+    top: 5417px;
 }
 
 .about-us {
@@ -704,7 +692,7 @@ footer {
     background: #D9D9D9;
 }
 
-.Instagram{
+.Instagram2{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -715,7 +703,7 @@ footer {
     border-radius: 25px;
 }
 
-.Telegram{
+.Telegram2{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -726,7 +714,7 @@ footer {
     border-radius: 25px;
 }
 
-.Youtube{
+.Youtube2{
     position: absolute;
     width: 50px;
     height: 50px;
